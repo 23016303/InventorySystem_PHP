@@ -7,7 +7,7 @@ body{
   height: 100%;
   width: 100%;
 }a{
-  color #777;
+  color: #777777;
   text-decoration: none;
 }.padding-top{
   padding-top: 20px;
@@ -113,7 +113,8 @@ body{
     letter-spacing: 1px;
     display: inline-block;
     width: 250px;
-    background-color: #db3434;
+    /* background-color: #db3434; */
+    background-color: #89B8E8;
 }.header-date{
   color: #9b9b9b;
   margin-left: 20px;
@@ -165,7 +166,7 @@ body{
 }.datepicker{
   text-align: center;
 }
-.sidebar {
+/* .sidebar {
   position: fixed;
   z-index: 10;
   left: 0;
@@ -231,7 +232,107 @@ body{
   left: 25px;
   top: 18px;
   border-top: 1px dotted #d7d7d7;
+} */
+
+.sidebar {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  padding: 65px 0 0;
+  height: 100%;
+  width: 250px;
+  background: #AED6FF; /* Changed from #272727 */
+  border-right: 1px solid #ddd;
+  text-align: center;
 }
+
+.sidebar ul li:hover,
+.submenu ul li:hover {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar ul li {
+  display: block;
+}
+
+.sidebar ul li:hover,
+ul.submenu {
+  background-color: #D4E9FF; /* Light hover background instead of #35404d */
+}
+
+.sidebar ul li a:hover {
+  color: black; /* Changed from white */
+}
+
+.sidebar ul li a,
+ul.submenu li a {
+  color: black; /* Changed from #aeb2b7 */
+  display: block;
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+  text-decoration: none;
+  text-align: left;
+}
+
+.sidebar ul li a span,
+.sidebar ul li i {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  text-shadow: none; /* Removed dark shadow for better contrast */
+  color: black; /* Ensure icons are black too */
+}
+
+.sidebar ul li a i {
+  color: black; /* Changed from #aeb2b7 */
+  padding: 15px 22px;
+  text-align: center;
+}
+
+ul.submenu {
+  display: none;
+  position: relative;
+}
+
+ul.submenu li a:hover {
+  background-color: #D4E9FF; /* Lighter hover color */
+}
+
+ul.submenu li a {
+  padding-left: 45px;
+}
+
+ul.submenu li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  left: 25px;
+  top: 0;
+  bottom: 0;
+  border: 1px dotted #d7d7d7;
+  border-width: 0 0 0 1px;
+}
+
+ul.submenu li a:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 7px;
+  left: 25px;
+  top: 18px;
+  border-top: 1px dotted #d7d7d7;
+}
+
 
 .sale_report_header{
   padding: 15px 0;

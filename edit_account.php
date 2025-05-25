@@ -52,7 +52,7 @@
         <div class="panel-heading">
           <div class="panel-heading clearfix">
             <span class="glyphicon glyphicon-camera"></span>
-            <span>Change My photo</span>
+            <span>Change My Photo</span>
           </div>
         </div>
         <div class="panel-body">
