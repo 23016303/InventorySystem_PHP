@@ -1,4 +1,3 @@
-
 // Global errors array
 let errors = [];
 
@@ -193,5 +192,3 @@ function randString(length = 5) {
     }
     return str;
 }
-
-/*--------------------------------------------------------------*/

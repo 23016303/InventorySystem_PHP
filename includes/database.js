@@ -1,4 +1,3 @@
-// database.js
 const mysql = require('mysql2/promise');
 const { DB_HOST, DB_USER, DB_PASS, DB_NAME } = require('./config.js');
 

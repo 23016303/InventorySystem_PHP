@@ -1,16 +1,12 @@
 const path = require('path');
 const fs = require('fs');
 
-// -----------------------------------------------------------------------
 // DEFINE SEPERATOR ALIASES
-// -----------------------------------------------------------------------
 const URL_SEPARATOR = '/';
 
 const DS = path.sep;
 
-// -----------------------------------------------------------------------
 // DEFINE ROOT PATHS
-// -----------------------------------------------------------------------
 let SITE_ROOT;
 if (typeof global.SITE_ROOT === 'undefined') {
     SITE_ROOT = path.resolve(path.dirname(__filename));

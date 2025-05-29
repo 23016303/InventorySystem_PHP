@@ -66,4 +66,3 @@ function generateMenu(menu) {
 
 // Append the generated menu to the body or a specific element
 document.body.appendChild(generateMenu(menu));
-

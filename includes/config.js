@@ -11,7 +11,6 @@
 |
 |
 */
-
 // Set database host
 const DB_HOST = 'localhost';
 // Set database user

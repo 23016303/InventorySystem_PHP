@@ -1,4 +1,3 @@
-
 // Required dependencies - these would typically be imported
 const crypto = require('crypto');
 
@@ -456,4 +455,3 @@ module.exports = {
   redirect,
   session
 };
-

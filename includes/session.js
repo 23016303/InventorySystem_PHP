@@ -1,4 +1,3 @@
-
 // Simulating PHP session functionality
 let $_SESSION = {};
 

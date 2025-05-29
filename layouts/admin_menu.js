@@ -1,4 +1,3 @@
-
 // Navigation menu data structure and HTML generator
 class NavigationMenu {
     constructor() {
@@ -212,4 +211,3 @@ if (typeof module !== 'undefined' && module.exports) {
         generateNavigationHTML
     };
 }
-
