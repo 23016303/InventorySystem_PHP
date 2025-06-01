@@ -1,4 +1,3 @@
-
 function suggetion() {
 
      $('#sug_input').keyup(function(e) {
